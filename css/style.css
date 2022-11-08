@@ -1,0 +1,20 @@
+nav .navbar-nav a {
+  color: rgb(53, 218, 201);
+  
+}
+
+header h1,
+strong {
+  color: rgb(53, 218, 201);
+}
+header p{
+    margin-top: 10px;
+}
+header .btn{
+    margin-top: 20px;
+}
+@media (max-width: 1200px) {
+    header h1 {
+      font-weight: 100;
+      font-size: 3rem;
+    }
