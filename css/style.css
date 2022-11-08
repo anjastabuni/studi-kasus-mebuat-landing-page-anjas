@@ -13,6 +13,32 @@ header p{
 header .btn{
     margin-top: 20px;
 }
+section{
+  background-color: rgb(232, 251, 255);
+}
+section h2::before, h2::after{
+  background-color: rgb(53, 218, 201);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+section h2::before{
+  right: 0.5em;
+  margin-left: -50%;
+}
+section h2::after{
+  left: 0.5em;
+  margin-right: -50%;
+}
+section h3{
+  color: rgb(53, 218, 201);
+}
+section span .fa-circle{
+  color: rgb(53, 218, 201);
+}
 @media (max-width: 1200px) {
     header h1 {
       font-weight: 100;
