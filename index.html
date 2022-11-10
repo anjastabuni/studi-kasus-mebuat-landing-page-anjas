@@ -16,17 +16,18 @@
     <!-- NAVIGASI BAR START -->
     <nav class="navbar fixed-top navbar-expand-lg bg-primary mb-5 shadow" id="navbar">
       <div class="container-fluid px-5">
-        <a class="navbar-brand" href="index.html"><i class="fa-solid fa-code display-5"></i></a>
+        <a class="navbar-brand mx-3" href="index.html"><i class="fa-solid fa-code display-6"></i>UCode</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-link active fw-bold" aria-current="page" href="#">Home</a>
             <a class="nav-link text-shadow" href="#service">Service</a>
             <a class="nav-link text-shadow" href="#product">Product</a>
             <a class="nav-link text-shadow" href="#about">About</a>
             <a class="nav-link text-shadow" href="#contact">Contact</a>
+            <a class="nav-link text-shadow" href="portofolio">Portofolio</a>
           </div>
         </div>
       </div>
@@ -34,10 +35,10 @@
     <!-- NAVIGASI BAR END -->
 
     <!-- HEADER START -->
-    <header class="jumbotron jumbotron-fluid-lg mt-5">
+    <header class="jumbotron jumbotron-fluid mt-5" id="home">
       <div class="row mt-5 shadow">
         <div class="col-md-8 text-center align-self-center pt-5">
-          <h1 class="display-4 px-1 text-shadow">Solusi Terbaik Belajarmu</h1>
+          <h1 class="display-5 px-1 text-shadow">Solusi Terbaik Belajarmu</h1>
           <p class="text-dark px-5">kami menyediakan banyak modul yang kamu butuhkan untuk belajar <strong>pemrograman</strong> dari tingkat dasar sampai mahir</p>
           <a href="#" class="btn btn-primary mx-3" role="button">Gabung Sekarang</a>
           <a href="#" class="btn btn-outline-info" role="button">Gabung Sekarang</a>
@@ -59,10 +60,10 @@
     <!-- HEADER END -->
 
     <!-- SECTION SERVICES START -->
-    <section id="services" class="container-fluid-lg py-5">
+    <section id="service" class="container-fluid py-4">
       <div class="row text-center">
-        <div class="col-12 pd-3">
-          <h2 class="display-4">Mengapa Memilih Kami</h2>
+        <div class="col-12 pb-3">
+          <h2 class="display-5">Mengapa Memilih Kami</h2>
         </div>
         <div class="col-12 col-sm-6 col-lg-3 my-4">
           <span class="fa-stack fa-2x">
@@ -97,31 +98,147 @@
           <p>Sistem pembelajaran kami cukup mudah dan terarah</p>
         </div>
         <div class="col-12 pt-3 mb-5 mt-4">
-          <a href="" class="btn btn-outline-info -btn-lg" target="_blank" role="button">Servive Lainnya</a>
+          <a href="" class="btn btn-outline-primary -btn-lg" target="_blank" role="button">Servive Lainnya</a>
         </div>
       </div>
     </section>
     <!-- SECTION SERVICES END -->
 
     <!-- SECTION PRODUCT START -->
-    <section id="product"></section>
+    <section id="product" class="my-5">
+      <div class="container-fluid">
+        <div class="row justify-content-center text-center">
+          <div class="col-12 pb-4">
+            <h2 class="display-5 text-center">Produk Kami</h2>
+          </div>
+          <div class="col-lg-3 mb-4">
+            <div class="card" style="width: 18rem">
+              <img src="img/produk.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title" style="color: rgb(53, 218, 201)">Membuat Aplikasi Androud berbasis lokasi</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary"><i class="fa-solid fa-eye"></i> Detail & Harga</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 mb-4">
+            <div class="card" style="width: 18rem">
+              <img src="img/produk.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title" style="color: rgb(53, 218, 201)">Membuat Aplikasi Androud berbasis lokasi</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary"><i class="fa-solid fa-eye"></i> Detail & Harga</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 mb-4">
+            <div class="card" style="width: 18rem">
+              <img src="img/produk.jpg" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title" style="color: rgb(53, 218, 201)">Membuat Aplikasi Androud berbasis lokasi</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+              <div class="card-body">
+                <a href="#" class="btn btn-primary"><i class="fa-solid fa-eye"></i> Detail & Harga</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- SECTION PRODUCT END -->
 
     <!-- SECTION ABOUT START -->
-    <section id="about"></section>
+    <section id="about">
+      <div class="container-fluid px-0 my-4">
+        <h2 class="display-5 text-center mb-5">Tentang Kami</h2>
+        <div class="row align-items-center content">
+          <div class="col-lg-6">
+            <div class="text-dark text-center d-none d-lg-block px-3">
+              <div class="px-5">
+                <h1 style="color: rgb(53, 218, 201)">Profile</h1>
+                <img src="img/banner6.jpg" height="60" alt="" class="d-none d-lg-inline" />
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit facere cumque, tempora natus corrupti autem saepe, ad iusto laudantium voluptas veniam nesciunt atque excepturi? Sit blanditiis ipsum animi ut aut. Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Fugiat, corporis blanditiis laborum quas, libero modi beatae maxime architecto reprehenderit sequi dignissimos veritatis ad vero atque ipsam optio aliquid ipsum debitis.
+                </p>
+              </div>
+              <div class="col-12 align-self-center">
+                <a href="#" class="btn btn-md btn-outline-primary"><i class="fa-solid fa-eye"></i> Selengkapnya</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img class="img-fluid" src="img/banner2.png" alt="" />
+          </div>
+        </div>
+        <div class="row align-items-center content mb-0">
+          <div class="col-md-6 order-2 order-md-1">
+            <img class="img-fluid" src="img/banner6.jpg" alt="" />
+          </div>
+          <div class="col-md-6 text-center order-1 order-md-2">
+            <div class="row justify-content-center">
+              <div class="col-10 col-lg-8 blurb pt-3">
+                <div class="px-5">
+                  <h1 style="color: rgb(53, 218, 201)">Perjalanan Bisnis Kami</h1>
+                  <img src="img/banner6.jpg" height="60" alt="" class="d-none d-lg-inline" />
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit facere cumque, tempora natus corrupti autem saepe, ad iusto laudantium voluptas veniam nesciunt atque excepturi? Sit blanditiis ipsum animi ut aut. Lorem
+                    ipsum dolor sit amet consectetur adipisicing elit. Fugiat, corporis blanditiis laborum quas, libero modi beatae maxime architecto reprehenderit sequi dignissimos veritatis ad vero atque ipsam optio aliquid ipsum debitis.
+                  </p>
+                </div>
+                <div class="col-12 align-self-center">
+                  <a href="#" class="btn btn-md btn-outline-primary"><i class="fa-solid fa-eye"></i> Selengkapnya</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!-- SECTION ABOUT END -->
 
     <!-- SECTION CONTACT START -->
-    <section id="contact"></section>
+    <section id="contact" class="container-fluid text-center bg-light py-5">
+      <h2 class="display-5 pb-4">Hubungi Kami Sekarang</h2>
+      <p class="lead pb-3">Kirim pesan untuk bergabung bersama kami.</p>
+      <a href="#" class="btn btn-success btn-lg mb-4"><i class="fa-brands fa-whatsapp"></i> WhatsApp Kami</a>
+    </section>
     <!-- SECTION CONTACT END -->
 
     <!-- FOOTER START -->
-    <footer></footer>
+    <footer class="bg-dark">
+      <div class="col-lg-12 py-3">
+        <div class="text-center text-light">
+          <a href="#" class="link-light fs-4 text-decoration-none px-2"><i class="fa-brands fa-facebook"></i> </a>
+          <a href="#" class="link-light fs-4 text-decoration-none"><i class="fa-brands fa-linkedin"></i> </a>
+          <a href="#" class="link-light fs-4 text-decoration-none px-2"><i class="fa-brands fa-instagram"></i> </a>
+          <p class="text-center text-secondary">copyright &copy; UCode 2022</p>
+        </div>
+      </div>
+    </footer>
     <!-- FOOTER END -->
 
     <!-- LINK BOOTSTRAP JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <!-- link jqury -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <script>
+      $(function () {
+        $(document).scroll(function () {
+          let $nav = $("#navbar");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+        });
+      });
+    </script>
   </body>
 </html>

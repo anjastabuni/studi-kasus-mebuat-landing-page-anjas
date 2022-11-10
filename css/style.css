@@ -13,7 +13,7 @@ header p{
 header .btn{
     margin-top: 20px;
 }
-section{
+#service{
   background-color: rgb(232, 251, 255);
 }
 section h2::before, h2::after{
@@ -23,21 +23,26 @@ section h2::before, h2::after{
   height: 1px;
   position: relative;
   vertical-align: middle;
-  width: 50%;
+  width: 30%;
 }
 section h2::before{
   right: 0.5em;
-  margin-left: -50%;
+  margin-left: -30%;
 }
 section h2::after{
   left: 0.5em;
-  margin-right: -50%;
+  margin-right: -30%;
 }
 section h3{
   color: rgb(53, 218, 201);
 }
 section span .fa-circle{
   color: rgb(53, 218, 201);
+}
+
+.img-fluid{
+  width: 60vh;
+  border-radius: 10px;
 }
 @media (max-width: 1200px) {
     header h1 {
