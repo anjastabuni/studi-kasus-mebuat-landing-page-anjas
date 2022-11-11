@@ -23,15 +23,15 @@ section h2::before, h2::after{
   height: 1px;
   position: relative;
   vertical-align: middle;
-  width: 30%;
+  width: 20%;
 }
 section h2::before{
   right: 0.5em;
-  margin-left: -30%;
+  margin-left: -40%;
 }
 section h2::after{
   left: 0.5em;
-  margin-right: -30%;
+  margin-right: -40%;
 }
 section h3{
   color: rgb(53, 218, 201);
